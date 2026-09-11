@@ -4,6 +4,14 @@
 
 **Lumina** is a cinematic AI short-film studio: remix a template, or write one line and generate a storyboard.
 
+## 部署
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/flghyy-art/lumina)
+
+仓库已接好 TanStack Start + Nitro（`vercel.json` 指定 `framework: tanstack-start`）。用上面的按钮，或在 [Vercel New Project](https://vercel.com/new/import?s=https://github.com/flghyy-art/lumina) 导入 `flghyy-art/lumina`，确认框架是 **TanStack Start** 后 Deploy。
+
+生成静帧需要在 Vercel 项目环境变量里加服务端 `XAI_API_KEY`。不配也能浏览示范短片和跟拍。
+
 ## 本地运行
 
 ```bash
